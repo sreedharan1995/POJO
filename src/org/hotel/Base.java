@@ -24,7 +24,8 @@ public class Base {
 	public static void selectt(WebElement w,int a) {
 		Select x=new Select(w);
 		x.selectByIndex(a);
-		
+		System.out.println("updated line");
+		System.out.println("updated line2");
 		
 	}
 	
